@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3F76291BAE324000DBDB81 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F76281BAE324000DBDB81 /* CreateViewController.m */; };
+		4D3F762B1BAE38D400DBDB81 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F762A1BAE38D400DBDB81 /* libicucore.tbd */; };
+		4D3F762D1BAE38E200DBDB81 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F762C1BAE38E200DBDB81 /* libc.tbd */; };
+		4D3F762F1BAE38EA00DBDB81 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F762E1BAE38EA00DBDB81 /* CFNetwork.framework */; };
+		4D3F76311BAE38F100DBDB81 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F76301BAE38F100DBDB81 /* Security.framework */; };
+		4D3F76331BAE38FA00DBDB81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F76321BAE38FA00DBDB81 /* SystemConfiguration.framework */; };
+		4D3F76351BAE390800DBDB81 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F76341BAE390800DBDB81 /* Firebase.framework */; };
+		4D3F76371BAE3D3700DBDB81 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F76361BAE3D3700DBDB81 /* libc++.tbd */; };
+		4D3F76401BAE684600DBDB81 /* SafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F763F1BAE684600DBDB81 /* SafeViewController.m */; };
+		4D3F76441BAE6FC700DBDB81 /* disaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F76431BAE6FC700DBDB81 /* disaster.jpg */; };
+		4D3F76461BAE723900DBDB81 /* opening.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F76451BAE723900DBDB81 /* opening.png */; };
+		4D3F76481BAE731000DBDB81 /* wanderlistlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F76471BAE731000DBDB81 /* wanderlistlogo.png */; };
+		4D3F764A1BAE764000DBDB81 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F76491BAE764000DBDB81 /* map.jpg */; };
+		4D3F764D1BAE7AAF00DBDB81 /* Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F764C1BAE7AAF00DBDB81 /* Safe.m */; };
+		4D3F76511BAEEA4100DBDB81 /* ferris.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F76501BAEEA4100DBDB81 /* ferris.png */; };
 		4DD0D8E11BAE167F00C9BD2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D8E01BAE167F00C9BD2B /* main.m */; };
 		4DD0D8E41BAE167F00C9BD2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D8E31BAE167F00C9BD2B /* AppDelegate.m */; };
 		4DD0D8E71BAE167F00C9BD2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D8E61BAE167F00C9BD2B /* ViewController.m */; };
@@ -15,6 +30,9 @@
 		4DD0D8EF1BAE167F00C9BD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0D8ED1BAE167F00C9BD2B /* LaunchScreen.storyboard */; };
 		4DD0D8FA1BAE167F00C9BD2B /* WanderlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D8F91BAE167F00C9BD2B /* WanderlistTests.m */; };
 		4DD0D9051BAE167F00C9BD2B /* WanderlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D9041BAE167F00C9BD2B /* WanderlistUITests.m */; };
+		4DD0D9141BAE176000C9BD2B /* PLPartyTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D9131BAE176000C9BD2B /* PLPartyTime.m */; };
+		4DD0D9191BAE176D00C9BD2B /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D9161BAE176D00C9BD2B /* EventTableViewCell.m */; };
+		4DD0D91A1BAE176D00C9BD2B /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0D9181BAE176D00C9BD2B /* Event.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3F76271BAE324000DBDB81 /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		4D3F76281BAE324000DBDB81 /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		4D3F762A1BAE38D400DBDB81 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4D3F762C1BAE38E200DBDB81 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		4D3F762E1BAE38EA00DBDB81 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4D3F76301BAE38F100DBDB81 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4D3F76321BAE38FA00DBDB81 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4D3F76341BAE390800DBDB81 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = Wanderlist/Firebase.framework; sourceTree = "<group>"; };
+		4D3F76361BAE3D3700DBDB81 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4D3F763E1BAE684600DBDB81 /* SafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeViewController.h; sourceTree = "<group>"; };
+		4D3F763F1BAE684600DBDB81 /* SafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeViewController.m; sourceTree = "<group>"; };
+		4D3F76431BAE6FC700DBDB81 /* disaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disaster.jpg; sourceTree = "<group>"; };
+		4D3F76451BAE723900DBDB81 /* opening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opening.png; sourceTree = "<group>"; };
+		4D3F76471BAE731000DBDB81 /* wanderlistlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wanderlistlogo.png; sourceTree = "<group>"; };
+		4D3F76491BAE764000DBDB81 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+		4D3F764B1BAE7AAF00DBDB81 /* Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Safe.h; sourceTree = "<group>"; };
+		4D3F764C1BAE7AAF00DBDB81 /* Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Safe.m; sourceTree = "<group>"; };
+		4D3F76501BAEEA4100DBDB81 /* ferris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferris.png; sourceTree = "<group>"; };
 		4DD0D8DC1BAE167F00C9BD2B /* Wanderlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanderlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD0D8E01BAE167F00C9BD2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DD0D8E21BAE167F00C9BD2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +87,12 @@
 		4DD0D9001BAE167F00C9BD2B /* WanderlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD0D9041BAE167F00C9BD2B /* WanderlistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanderlistUITests.m; sourceTree = "<group>"; };
 		4DD0D9061BAE167F00C9BD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD0D9121BAE176000C9BD2B /* PLPartyTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPartyTime.h; sourceTree = "<group>"; };
+		4DD0D9131BAE176000C9BD2B /* PLPartyTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPartyTime.m; sourceTree = "<group>"; };
+		4DD0D9151BAE176D00C9BD2B /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		4DD0D9161BAE176D00C9BD2B /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		4DD0D9171BAE176D00C9BD2B /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		4DD0D9181BAE176D00C9BD2B /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3F76371BAE3D3700DBDB81 /* libc++.tbd in Frameworks */,
+				4D3F762B1BAE38D400DBDB81 /* libicucore.tbd in Frameworks */,
+				4D3F76331BAE38FA00DBDB81 /* SystemConfiguration.framework in Frameworks */,
+				4D3F76351BAE390800DBDB81 /* Firebase.framework in Frameworks */,
+				4D3F76311BAE38F100DBDB81 /* Security.framework in Frameworks */,
+				4D3F762F1BAE38EA00DBDB81 /* CFNetwork.framework in Frameworks */,
+				4D3F762D1BAE38E200DBDB81 /* libc.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +130,13 @@
 		4DD0D8D31BAE167F00C9BD2B = {
 			isa = PBXGroup;
 			children = (
+				4D3F76361BAE3D3700DBDB81 /* libc++.tbd */,
+				4D3F76341BAE390800DBDB81 /* Firebase.framework */,
+				4D3F76321BAE38FA00DBDB81 /* SystemConfiguration.framework */,
+				4D3F76301BAE38F100DBDB81 /* Security.framework */,
+				4D3F762E1BAE38EA00DBDB81 /* CFNetwork.framework */,
+				4D3F762C1BAE38E200DBDB81 /* libc.tbd */,
+				4D3F762A1BAE38D400DBDB81 /* libicucore.tbd */,
 				4DD0D8DE1BAE167F00C9BD2B /* Wanderlist */,
 				4DD0D8F81BAE167F00C9BD2B /* WanderlistTests */,
 				4DD0D9031BAE167F00C9BD2B /* WanderlistUITests */,
@@ -103,8 +159,20 @@
 			children = (
 				4DD0D8E21BAE167F00C9BD2B /* AppDelegate.h */,
 				4DD0D8E31BAE167F00C9BD2B /* AppDelegate.m */,
+				4DD0D9121BAE176000C9BD2B /* PLPartyTime.h */,
+				4DD0D9131BAE176000C9BD2B /* PLPartyTime.m */,
 				4DD0D8E51BAE167F00C9BD2B /* ViewController.h */,
 				4DD0D8E61BAE167F00C9BD2B /* ViewController.m */,
+				4DD0D9151BAE176D00C9BD2B /* EventTableViewCell.h */,
+				4DD0D9161BAE176D00C9BD2B /* EventTableViewCell.m */,
+				4D3F764B1BAE7AAF00DBDB81 /* Safe.h */,
+				4D3F764C1BAE7AAF00DBDB81 /* Safe.m */,
+				4DD0D9171BAE176D00C9BD2B /* Event.h */,
+				4DD0D9181BAE176D00C9BD2B /* Event.m */,
+				4D3F76271BAE324000DBDB81 /* CreateViewController.h */,
+				4D3F76281BAE324000DBDB81 /* CreateViewController.m */,
+				4D3F763E1BAE684600DBDB81 /* SafeViewController.h */,
+				4D3F763F1BAE684600DBDB81 /* SafeViewController.m */,
 				4DD0D8E81BAE167F00C9BD2B /* Main.storyboard */,
 				4DD0D8EB1BAE167F00C9BD2B /* Assets.xcassets */,
 				4DD0D8ED1BAE167F00C9BD2B /* LaunchScreen.storyboard */,
@@ -117,6 +185,11 @@
 		4DD0D8DF1BAE167F00C9BD2B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D3F76501BAEEA4100DBDB81 /* ferris.png */,
+				4D3F76491BAE764000DBDB81 /* map.jpg */,
+				4D3F76471BAE731000DBDB81 /* wanderlistlogo.png */,
+				4D3F76451BAE723900DBDB81 /* opening.png */,
+				4D3F76431BAE6FC700DBDB81 /* disaster.jpg */,
 				4DD0D8E01BAE167F00C9BD2B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,9 +319,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3F76511BAEEA4100DBDB81 /* ferris.png in Resources */,
 				4DD0D8EF1BAE167F00C9BD2B /* LaunchScreen.storyboard in Resources */,
 				4DD0D8EC1BAE167F00C9BD2B /* Assets.xcassets in Resources */,
 				4DD0D8EA1BAE167F00C9BD2B /* Main.storyboard in Resources */,
+				4D3F76461BAE723900DBDB81 /* opening.png in Resources */,
+				4D3F764A1BAE764000DBDB81 /* map.jpg in Resources */,
+				4D3F76481BAE731000DBDB81 /* wanderlistlogo.png in Resources */,
+				4D3F76441BAE6FC700DBDB81 /* disaster.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +351,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD0D91A1BAE176D00C9BD2B /* Event.m in Sources */,
 				4DD0D8E71BAE167F00C9BD2B /* ViewController.m in Sources */,
 				4DD0D8E41BAE167F00C9BD2B /* AppDelegate.m in Sources */,
+				4D3F76291BAE324000DBDB81 /* CreateViewController.m in Sources */,
 				4DD0D8E11BAE167F00C9BD2B /* main.m in Sources */,
+				4D3F76401BAE684600DBDB81 /* SafeViewController.m in Sources */,
+				4DD0D9141BAE176000C9BD2B /* PLPartyTime.m in Sources */,
+				4DD0D9191BAE176D00C9BD2B /* EventTableViewCell.m in Sources */,
+				4D3F764D1BAE7AAF00DBDB81 /* Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +434,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -393,6 +478,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -414,6 +500,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wanderlist",
+				);
 				INFOPLIST_FILE = Wanderlist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beylin.Wanderlist;
@@ -425,6 +516,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wanderlist",
+				);
 				INFOPLIST_FILE = Wanderlist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beylin.Wanderlist;
@@ -499,6 +595,7 @@
 				4DD0D90B1BAE167F00C9BD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DD0D90C1BAE167F00C9BD2B /* Build configuration list for PBXNativeTarget "WanderlistTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +604,7 @@
 				4DD0D90E1BAE167F00C9BD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DD0D90F1BAE167F00C9BD2B /* Build configuration list for PBXNativeTarget "WanderlistUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +613,7 @@
 				4DD0D9111BAE167F00C9BD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
